@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Catalogue</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<div class="p-3 mb-1 bg-dark text-center text-white">Sustainable and Inclusive Fashion for All</div>
+
+		<nav class="navbar sticky-top navbar-dark bg-primary-subtle mb-1 sticky-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+				 		<img src="../images/bag.svg" alt="Shopping Cart" width="30" height="24">
+				 	</a>
+
+				 	<a class="navbar-brand text-dark" href="../index.html"><h1>kay's kreations</h1></a>
+
+				 	<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+
+
+				<div class="offcanvas offcanvas-end bg-primary-tertiary text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+					<div class="offcanvas-header">
+						<h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+						<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body">
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="pages/catalog.html">Catalog</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Spring is A-Bloom</a>
+
+								<ul class="dropdown-menu dropdown-menu-dark">
+									<li><a class="dropdown-item" href="#">Dress</a></li>
+									<li><a class="dropdown-item" href="#">Jeans</a></li>
+
+									<li>
+										<hr class="dropdown-divider">
+									</li>
+
+									<li><a class="dropdown-item" href="#">Curves</a></li>
+								</ul>
+							</li>
+						</ul>
+						<form class="d-flex mt-3" role="search">
+							<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-success" type="submit">Search</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<div>
+
+		<div id="labels" class="container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-3 mt-5 border border-primary-subtle mx-0" style="height:90rem;">
+					
+						<div class="accordion accordion-flush mt-3 " id="accordionPanelsStayOpenExample">
+							<div class="accordion-item border border-start-0 border-end-0 ">
+							<h2 class="accordion-header">
+								<button class="accordion-button fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+									Filters
+								</button>
+							</h2>
+
+							<div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+								<div class="accordion accordion-flush">
+									<div class="accordion-item mx-2">
+										<h2 class="accordion-header">
+											<button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+												Catagory
+											</button>
+										</h2>
+										<div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+											<div class="accordion-body">
+											<div class="accordion-body">
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														New Arrivals
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														Jeans
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														Casual
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														Dress and Formal
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+									<div class="accordion-item mx-2">
+										<h2 class="accordion-header">
+										<button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+											Fit
+										</button>
+									</h2>
+
+									<div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+										<div class="accordion-body">
+											<div class="accordion-body">
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														Relaxed
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														Fitted
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														Straight
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														Wide Leg
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									</div>
+
+								<div class="accordion-item mx-2">
+									<h2 class="accordion-header">
+										<button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+											Color
+										</button>
+									</h2>
+									<div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+										<div class="accordion-body">
+											<div class="accordion-body">
+												<div class="form-check text-danger">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														Red
+													</label>
+												</div>
+												<div class="form-check text-success">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														Green
+													</label>
+												</div>
+												<div class="form-check text-primary">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														Blue
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														Multi
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+									<div class="accordion-item mx-2">
+										<h2 class="accordion-header">
+											<button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+												Collection
+											</button>
+										</h2>
+										<div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+											<div class="accordion-body">
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														Spring</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														Denim
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														Mint Condition
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														Past Seasons
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+
+										<div class="accordion-item mx-2">
+											<h2 class="accordion-header">
+												<button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+													Size
+												</button>
+											</h2>
+											<div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+												<div class="accordion-body">
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														XS
+												</div>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														S
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														M
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														L
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														XL
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														XXL
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														2X +
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="accordion-item mx-2">
+										<h2 class="accordion-header">
+											<button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+												Price
+											</button>
+										</h2>
+										<div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse">
+											<div class="accordion-body">
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														10 - 50
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														50 - 99
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														100 - 150
+													</label>
+												</div>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+													<label class="form-check-label" for="defaultCheck1">
+														150 +
+													</label>
+												</div>
+											</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-9 col-md-9 col-sm-9">
+							<h1 class="text-bg-secondary-subtle mt-5">Shop New Arrivals</h1>
+							<div class="row " class="adults">
+								<h4>Women's</h4>
+								<div class="col-lg-3 col-md-3 col-sm-3">
+									<div class="dresses" class="card border-light mb-3" style="width: 15rem;">
+										<img src="../images/dress2.jpg" class="card-img-top" alt="...">
+										<div class="card-body">
+											<div class="card-title">Capri Short</div>
+											<button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+												Add to Cart
+											</button>
+											<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h1 class="modal-title fs-5" id="exampleModalLabel">Hooray!</h1>
+															<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+														</div>
+														<div class="modal-body">
+														You're One Click CLoser to Looking Fabulous</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-primary">Go to Cart</button>
+														</div>
+														<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="card border-light mb-3" style="width: 15rem;">
+							<img src="../images/wdenim.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Add to Cart
+									</button>
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Hooray!</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+												You're One Click CLoser to Looking Fabulous</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-primary">Go to Cart</button>
+												</div>
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="card border-light mb-3" style="width: 15rem;">
+							<img src="../images/shorts.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Add to Cart
+									</button>
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Hooray!</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+												You're One Click CLoser to Looking Fabulous</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-primary">Go to Cart</button>
+												</div>
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+
+					</div> <div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="card border-light mb-3" style="width: 15rem;">
+							<img src="../images/curve.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Add to Cart
+									</button>
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Hooray!</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+												You're One Click CLoser to Looking Fabulous</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-primary">Go to Cart</button>
+												</div>
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+					<h4>Men's</h4>
+
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="dresses" class="card border-light mb-3" style="width: 15rem;">
+							<img src="../images/casual.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<div class="card-title">Capri Short</div>
+								<button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Add to Cart
+									</button>
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Hooray!</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+												You're One Click CLoser to Looking Fabulous</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-primary">Go to Cart</button>
+												</div>
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="card border-light mb-3" style="width: 15rem;">
+							<img src="../images/mdenim.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Add to Cart
+									</button>
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Hooray!</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+												You're One Click CLoser to Looking Fabulous</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-primary">Go to Cart</button>
+												</div>
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="card border-light mb-3" style="width: 15rem;">
+							<img src="../images/short.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Add to Cart
+									</button>
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Hooray!</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+												You're One Click CLoser to Looking Fabulous</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-primary">Go to Cart</button>
+												</div>
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+
+					</div> <div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="card border-light mb-3" style="width: 15rem;">
+							<img src="../images/suit.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Add to Cart
+									</button>
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Hooray!</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+												You're One Click CLoser to Looking Fabulous</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-primary">Go to Cart</button>
+												</div>
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+
+					<h4>Curve</h4>
+
+				<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="dresses" class="card border-light mb-3" style="width: 15rem;">
+							<img src="../images/cod.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<div class="card-title">Capri Short</div>
+								<button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Add to Cart
+									</button>
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Hooray!</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+												You're One Click CLoser to Looking Fabulous</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-primary">Go to Cart</button>
+												</div>
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="card border-light mb-3" style="width: 15rem;">
+							<img src="../images/pdenim.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Add to Cart
+									</button>
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Hooray!</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+												You're One Click CLoser to Looking Fabulous</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-primary">Go to Cart</button>
+												</div>
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="card border-light mb-3" style="width: 15rem;">
+							<img src="../images/pdress.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Add to Cart
+									</button>
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Hooray!</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+												You're One Click CLoser to Looking Fabulous</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-primary">Go to Cart</button>
+												</div>
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+
+					</div> <div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="card border-light mb-3" style="width: 15rem;">
+							<img src="../images/curve.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Add to Cart
+									</button>
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Hooray!</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+												You're One Click CLoser to Looking Fabulous</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-primary">Go to Cart</button>
+												</div>
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+
+					<h4>Teens</h4>
+
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="dresses" class="card border-light mb-3" style="width: 15rem;">
+							<img src="../images/tp.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<div class="card-title">Jumper</div>
+								<button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Add to Cart
+									</button>
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Hooray!</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+												You're One Click CLoser to Looking Fabulous</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-primary">Go to Cart</button>
+												</div>
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="card border-light mb-3" style="width: 15rem;">
+							<img src="../images/tdenim.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Add to Cart
+									</button>
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Hooray!</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+												You're One Click CLoser to Looking Fabulous</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-primary">Go to Cart</button>
+												</div>
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="card border-light mb-3" style="width: 15rem;">
+							<img src="../images/gingham.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Add to Cart
+									</button>
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Hooray!</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+												You're One Click CLoser to Looking Fabulous</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-primary">Go to Cart</button>
+												</div>
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+
+					</div> <div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="card border-light mb-3" style="width: 15rem;">
+							<img src="../images/seaside.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Add to Cart
+									</button>
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Hooray!</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+												You're One Click CLoser to Looking Fabulous</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-primary">Go to Cart</button>
+												</div>
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+
+				<h4>Sproutlings</h4>
+				<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="dresses" class="card border-light mb-3" style="width: 15rem;">
+							<img src="../images/floral.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<div class="card-title">Capri Short</div>
+								<button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Add to Cart
+									</button>
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Hooray!</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+												You're One Click CLoser to Looking Fabulous</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-primary">Go to Cart</button>
+												</div>
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="card border-light mb-3" style="width: 15rem;">
+							<img src="../images/ktp.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Add to Cart
+									</button>
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Hooray!</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+												You're One Click CLoser to Looking Fabulous</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-primary">Go to Cart</button>
+												</div>
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="card border-light mb-3" style="width: 15rem;">
+							<img src="../images/kgingham.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Add to Cart
+									</button>
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Hooray!</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+												You're One Click CLoser to Looking Fabulous</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-primary">Go to Cart</button>
+												</div>
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+
+					</div> <div class="col-lg-3 col-md-3 col-sm-3">
+						<div class="card border-light mb-3" style="width: 15rem;">
+							<img src="../images/cdress.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Add to Cart
+									</button>
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Hooray!</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+												You're One Click CLoser to Looking Fabulous</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-primary">Go to Cart</button>
+												</div>
+												<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep Shopping</button>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
